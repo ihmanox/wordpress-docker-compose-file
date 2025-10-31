@@ -41,10 +41,8 @@ services:
       - '8000:80'
     restart: always
     volumes: 
-     - ./:/var/www/html
-     - ./wp-content/plugins:/var/www/html/wp-content/plugins
-     - ./wp-content/themes:/var/www/html/wp-content/themes
-     - ./wp-content/uploads:/var/www/html/wp-content/uploads
+     - ./wp-content:/var/www/html/wp-content
+     - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
