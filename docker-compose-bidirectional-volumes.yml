@@ -6,7 +6,7 @@ services:
 
 # DB MySQL
   db:
-    image: mysql:8.0
+    image: mysql:latest
     volumes:
       - db_data:/var/lib/mysql
     restart: always
