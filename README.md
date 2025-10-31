@@ -22,6 +22,9 @@ $ docker compose down
 # Stop containers:
 $ docker compose stop
 
+# Restart container:
+$ docker compose restart wordpress
+
 # check the containers:
 $ docker ps 
 $ docker ps -a 
