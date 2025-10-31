@@ -13,13 +13,14 @@ $ touch docker-compose.yaml
 $ nano docker-compose.yml
 
 # To Run the project:
-$ docker-compose up -d
+$ docker compose up -d
 
 # To Tear Down:
-$ docker-compose down --volumes
+$ docker compose down --volumes
+$ docker compose down
 
 # Stop containers:
-$ docker-compose stop
+$ docker compose stop
 
 # check the containers:
 $ docker ps 
