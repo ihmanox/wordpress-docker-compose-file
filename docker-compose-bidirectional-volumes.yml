@@ -49,7 +49,7 @@ services:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
-      WORDPRESS_TABLE_PREFIX: wrdprss4325LMRHK#_
+      WORDPRESS_TABLE_PREFIX: wp_ # Cambiar este prefijo por otro como: x9f3k2_
     networks:
       - wpsite
       
