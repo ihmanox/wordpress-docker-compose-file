@@ -5,8 +5,12 @@
 
 
 ```
+# Start a project:
+$ mkdir wordpress-project && cd wordpress-project
+
 # create a docker-compose.yml/yaml file:
 $ touch docker-compose.yaml
+$ nano docker-compose.yml
 
 # To Run the project:
 $ docker-compose up -d
